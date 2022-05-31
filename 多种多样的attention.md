@@ -2,13 +2,13 @@
 title: transformer 详解！
 ---
 
-### 0. 奠基大佬
+## 0. 奠基大佬
 
  **Bahdanau Attention & Luong Attention** 
 
  ![](https://pic2.zhimg.com/80/v2-bda918b5bf14db4dc01da8b2b352c619_720w.jpg) 
 
-### 1. 自注意力和多头
+## 1. 自注意力和多头
 
  **Self Attention & Multi-head Attention** 
 
@@ -21,7 +21,7 @@ title: transformer 详解！
 
  ![](https://pic4.zhimg.com/80/v2-c09efe994bffa64fe9ab854eb6c97d4f_720w.jpg) 
 
-#### 1.1 莫斯是 自注意力
+### 1.1 莫斯是 自注意力
 
 \1. QKV 都是对输入 x 的线性映射。
 
@@ -30,3 +30,9 @@ title: transformer 详解！
 \3. multihead 的方式将多个 head 的输出 z，进行 concat 后，通过线性变换得到最后的输出 z
 
  ![](https://pic3.zhimg.com/80/v2-00e535ee13e7a3e14651d3269d5fd2a2_720w.jpg) 
+
+## 2. 注意力简单解释
+
+https://blog.csdn.net/longxinchen_ml/article/details/86533005
+
+自己发现 softmax dim 范围其实是dim = 1
