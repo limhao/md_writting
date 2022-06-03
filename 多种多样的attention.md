@@ -1,5 +1,5 @@
 ---
-title: transformer 详解！
+title: transformer 详解！（写的像人话一点）
 ---
 
 ## 0. 奠基大佬
@@ -21,15 +21,57 @@ title: transformer 详解！
 
  ![](https://pic4.zhimg.com/80/v2-c09efe994bffa64fe9ab854eb6c97d4f_720w.jpg) 
 
-### 1.1 莫斯是 自注意力
+### 1.1 宏观角度看自注意力机制
 
-\1. QKV 都是对输入 x 的线性映射。
+​	随着模型处理输入序列的每个单词，自注意力会关注整个输入序列的所有单词，帮助模型对本单词更好地进行编码。
 
-\2. score-function 使用 scaled-dot product。
+​	如果你熟悉RNN（循环神经网络），回忆一下它是如何维持隐藏层的。RNN会将它已经处理过的前面的所有单词/向量的表示与它正在处理的当前单词/向量结合起来。而自注意力机制会将所有相关单词的理解融入到我们正在处理的单词中。
 
-\3. multihead 的方式将多个 head 的输出 z，进行 concat 后，通过线性变换得到最后的输出 z
+### 1.2 微观角度
 
- ![](https://pic3.zhimg.com/80/v2-00e535ee13e7a3e14651d3269d5fd2a2_720w.jpg) 
+在NLP 中 ，k = v
+
+具体流程（本人的脑子思考）：
+
+1. 词向量
+
+2. 生成qkv
+
+3. qk计算注意力分数（scaled-dot product）
+
+4. 注意力分数softmax （alignment function）
+
+5. 通过注意力分数softmax 计算最后的值向量
+
+6. 求和 （context vector）
+
+    ![](https://n.sinaimg.cn/sinacn20116/669/w746h723/20190108/ad95-hrkkwef7015564.jpg) 
+
+### 1.3 代码实践
+
+softmax 的 dim  = 1 
+
+  ```python
+import torch
+import torch.nn as nn
+# 各一个原始的base 词向量 v 就是值
+base = torch.randn(2, 2)
+v = torch.randn(2, 3)
+print(base)
+print(v)
+
+# softmax （alignment function）
+softmax_0 = nn.Softmax(dim=1)
+out = softmax_0(base)
+out
+
+# 输出 求和项
+# 矩阵乘法
+out_add = torch.mm(out, v)
+out_add
+  ```
+
+
 
 ## 2. 注意力简单解释
 

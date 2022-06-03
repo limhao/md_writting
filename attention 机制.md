@@ -1,5 +1,5 @@
 ---
-title: attention机制 简单理解
+title: attention机制 简单理解（废弃） 说实话看不太懂 太抽象
 ---
 
 在反复回卷的attention中，本人感觉心里憔悴
