@@ -12,6 +12,10 @@ title: 虚拟机和mobasterm连接
 
 https://blog.csdn.net/u013215852/article/details/80526706
 
+这里贴一个centos 安装 ssh 教程
+
+https://www.php.cn/centos/456773.html
+
 
 
 ## 0. 前言
