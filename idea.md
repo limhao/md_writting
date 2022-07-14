@@ -14,9 +14,27 @@ title: 论文撰写
 4. 上一届师兄成果
 ## 准备工作
 1. 论文5篇 至少一个综述
+
+   1.1 挖掘新想法 nlp https://index.quantumstat.com
+
+   1.2 aminer
+
+   [![](https://s1.ax1x.com/2022/07/13/jWkqcF.md.jpg)](https://imgtu.com/i/jWkqcF)
+
+
 2. 研究方面：动机 问题 贡献点 最后是方式
+
+   2.1  谷歌学术 dblp web of science arxiv 溯源网：aminer 
+
 3. 工程方面：代码 数据集 实验设置（超参数 sota）
+
 4. **key point** 对自己研究领域有初步认识
+## idea好坏
+1. 创新性
+2. 直观解释
+3. 数学分析
+4. 可行性和可验证性
+[![](https://s1.ax1x.com/2022/07/13/jWkLX4.md.jpg)](https://imgtu.com/i/jWkLX4)
 ## 怎么写
 1. 论文题目很重要
 2. 题目长度 不能太长
@@ -24,10 +42,13 @@ title: 论文撰写
 4. 题目最后要商讨
 ## 文章结构
 
-[![jgFSyR.md.jpg](https://s1.ax1x.com/2022/07/12/jgFSyR.md.jpg)](https://imgtu.com/i/jgFSyR)
+[![](https://s1.ax1x.com/2022/07/12/jgFSyR.md.jpg)](https://imgtu.com/i/jgFSyR)
 
 1. discussion 可写可不写 最好不写
 2. 先word 在latex 到时候换模板 好转换
+### title
+[![](https://s1.ax1x.com/2022/07/13/jWAn4P.md.jpg)](https://imgtu.com/i/jWAn4P)
+
 ### 摘要
 
 [![](https://s1.ax1x.com/2022/07/12/jgFPw6.md.jpg)](https://imgtu.com/i/jgFPw6)
