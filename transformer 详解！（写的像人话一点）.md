@@ -16,7 +16,7 @@ title: transformer 详解！（写的像人话一点）
 
  相对于 RNN，考虑长距离依赖，还要可以并行！ 
 
-- constant path length & variable-sized perceptive field ：任意两个位置（特指远距离）的关联不再需要通过 Hierarchical perceptive field 的方式，它的 perceptive field 是整个句子，所以任意两个位置建立关联是常数时间内的。
+- constant path length & variable-sized perceptive field：任意两个位置（特指远距离）的关联不再需要通过 Hierarchical perceptive field 的方式，它的 perceptive field 是整个句子，所以任意两个位置建立关联是常数时间内的。
 - parallelize : 没有了递归的限制，就像 CNN 一样可以在每一层内实现并行。
 
  ![](https://pic4.zhimg.com/80/v2-c09efe994bffa64fe9ab854eb6c97d4f_720w.jpg) 
@@ -33,9 +33,9 @@ title: transformer 详解！（写的像人话一点）
 
 具体流程（本人的脑子思考）：
 
-1. 词向量
+1. 词向量（为x1）
 
-2. 生成qkv
+2. 生成qkv（词向量乘对应的权重矩阵 wq wk wv）
 
 3. qk计算注意力分数（scaled-dot product）
 
