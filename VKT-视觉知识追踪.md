@@ -6,7 +6,7 @@ title: VKT 视觉知识追踪
 
 这个文章 是 我在看 知识追踪 的 paperwithcode 时候 偶然 发现一篇文章
 
-
+[![](https://s1.ax1x.com/2022/07/31/vFbd7d.md.jpg)](https://imgtu.com/i/vFbd7d)
 
 ## 前言
 
