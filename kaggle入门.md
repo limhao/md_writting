@@ -5,6 +5,10 @@ title: kaggle入门
 
 # 环境安装和准备
 
+感谢：https://blog.csdn.net/mighty13/article/details/119859242
+
+https://blog.csdn.net/weixin_41524411/article/details/89710097
+
 anaconda + jupyter
 
 ```shell
@@ -26,6 +30,8 @@ kaggle competitions list
 ## 安装内核
 
 使用anaconda虚拟环境作为jupyter notebook内核
+
+主要是将python 用作 能在jupyter运行的内核
 
 ```python
 # 激活虚拟环境 其中xxx为你的环境名
@@ -53,6 +59,3 @@ jupyter kernelspec list
 
 
 
-感谢：https://blog.csdn.net/mighty13/article/details/119859242
-
-https://blog.csdn.net/weixin_41524411/article/details/89710097

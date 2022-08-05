@@ -1,21 +1,22 @@
 ---
 title: RNN模型
-
 ---
 
 感谢：https://zhuanlan.zhihu.com/p/32085405
 
-## 0. RNN 
+ 文章 写的怪好的 但是 在博客的体现并不怎么好看 如果想看 去看md文档
 
- 先简单介绍一下一般的RNN。 
+## 0. RNN
+
+先简单介绍一下一般的RNN。 
 
  ![](https://pic4.zhimg.com/80/v2-f716c816d46792b867a6815c278f11cb_720w.jpg) 
 
 这里：
 
-!(https://www.zhihu.com/equation?tex=x) 为当前状态下数据的输入， ![](https://www.zhihu.com/equation?tex=h) 表示接收到的上一个节点的输入。
+x为当前状态下数据的输入， h表示接收到的上一个节点的输入。
 
-![](https://www.zhihu.com/equation?tex=y) 为当前节点状态下的输出，而 ![](https://www.zhihu.com/equation?tex=h%27) 为传递到下一个节点的输出。
+y为当前节点状态下的输出，而**h'**为传递到下一个节点的输出。
 
 
 

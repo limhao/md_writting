@@ -96,7 +96,7 @@ DIEN，全称是Deep Interest Evolution Network，即用户兴趣进化网络。
 
 兴趣抽取层获得的隐向量，ht 与 被embedding后的广告向量 产生内积后softmax取相关参数
 
- ![](https://pic4.zhimg.com/80/v2-862cb2d9b9106a069ab53036f55e623b_720w.jpg) 
+   ![](https://pic4.zhimg.com/80/v2-862cb2d9b9106a069ab53036f55e623b_720w.jpg) 
 
 #### 3.2.2 attention方式
 
