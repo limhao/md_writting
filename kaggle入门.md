@@ -1,6 +1,5 @@
 ---
-title: kaggle入门
-
+title: kaggle 及 conda jupyter 内核准备入门
 ---
 
 # 环境安装和准备
