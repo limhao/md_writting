@@ -2,10 +2,6 @@
 title: PyTorch 张量操作 
 ---
 
-
-
-
-
 感谢： https://mp.weixin.qq.com/s/Xy47wBVurmCH6QmGtM_mow
 
 ## 0. 前言

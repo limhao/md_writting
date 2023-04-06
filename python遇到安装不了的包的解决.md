@@ -1,5 +1,5 @@
 ---
-title: python遇到安装不了的包的解决
+title: python遇到安装不了的包的解决whl包的安装
 ---
 
 感谢：https://blog.csdn.net/xyh_qianxiao/article/details/114591037 操作流程

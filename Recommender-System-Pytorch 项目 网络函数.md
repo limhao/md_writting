@@ -2,8 +2,6 @@
 title: Recommender-System-Pytorch 项目 网络参数指南
 ---
 
-
-
 个人觉得成熟的rebole的工具 不太适合萌新 来操作自己对于项目的建设
 
 最近找了一个新的项目 来操作 
