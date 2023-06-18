@@ -32,6 +32,14 @@ title: 模型效果保存（cosrec）
 epoch34
 map0.1898,prec@1-0.3281, prec@5-0.2812, prec@l0-0.2496, recall@l-0.0199, recall@5-0.0838, recall@l0-0.1436
 
+- ml1m 对比学习
+
+0.1924 deftsweep
+
+1913 rural
+
+1915 dark
+
 - gowalla 对比学习
 
 找了超参
